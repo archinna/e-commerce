@@ -1,0 +1,99 @@
+.display_categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.categoryElement {
+    list-style: none;
+    /* Ensure the list has no default styling */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
+
+.categoryElement>li {
+    flex: 1 1 21%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:cadetblue;
+    transition: transform 0.2s;
+    display: inline;
+}
+
+.logo {
+    height: 130px;
+    width: 150px;
+    display:flex;
+    float:left ;
+    background-color: rgb(196, 239, 255);
+}
+
+.header {
+    text-align: right;
+    padding-left: 15%;
+    padding: right 50px;
+    width: 50%;
+}
+
+header {
+    height: 50%;
+    width:100%;
+    background-color: rgb(196, 239, 255);
+}
+.buttonStyle {
+    padding-left: 50%;
+}
+
+section{
+    height: 100%;
+}
+.container{
+    height: 100%;
+    background-color:gray;
+}
+.jeweleryStyle {
+    display: grid;
+    grid-template-columns: repeat(auto-fi   ll, minmax(250px fr));
+    gap: 20px;
+    padding: 5px;
+}
+
+.container2 {
+    border: 2px solid #ddd;
+    border: radius 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color:#777;
+    
+}
+
+.container2:hover {
+    transform: scale(1.05);
+}
+
+.jeweleryImage {
+    width: 20px;
+    height: 100px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.description {
+    padding: 5px;
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    color: #777;
+    
+}
